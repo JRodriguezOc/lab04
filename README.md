@@ -279,13 +279,13 @@
 -   En esta tarea usted pondrá en práctica sus conocimientos de programación en Python para dibujar un tablero de Ajedrez. 
 -   La parte gráfica ya está programada, usted sólo tendrá que concentrarse en las estructuras de datos subyacentes.
 -   Con el código proporcionado usted dispondrá de varios objetos de tipo Picture para poder realizar su tarea:
-    ![Fichas de ajedrez](imagenes/picture.png)
--   Estos objetos estarán disponibles importando la biblioteca: [chessPictures](Tarea-del-Ajedrez/chessPictures.py) y estarán internamente representados con arreglos de strings que podrá revisar en el archivo [pieces.py](Tarea-del-Ajedrez/pieces.py)
--   La clase [Picture](Tarea-del-Ajedrez/picture.py) tiene un sólo atributo: el arreglo de strings img, el cual contendrá la representación en caracteres de la figura que se desea dibujar. 
--   La clase [Picture](Tarea-del-Ajedrez/picture.py) ya cuenta con una función implementada, no debe modificarla, pero si puede usarla para implementar sus otras funciones:
+    ![Fichas de ajedrez](img/picture.png)
+-   Estos objetos estarán disponibles importando la biblioteca: [chessPictures](lab/chessPictures.py) y estarán internamente representados con arreglos de strings que podrá revisar en el archivo [pieces.py](lab/pieces.py)
+-   La clase [Picture](lab/picture.py) tiene un sólo atributo: el arreglo de strings img, el cual contendrá la representación en caracteres de la figura que se desea dibujar. 
+-   La clase [Picture](lab/picture.py) ya cuenta con una función implementada, no debe modificarla, pero si puede usarla para implementar sus otras funciones:
     -   _invColor: recibe un color como un caracter de texto y devuelve su color negativo, también como texto, deberá revisar el archivo [colors.py](Tarea-del-Ajedrez/colors.py) para conocer los valores negativos de cada caracter.
 
--   La clase [Picture](Tarea-del-Ajedrez/picture.py) contará además con varios métodos que usted deberá implementar:
+-   La clase [Picture](lab/picture.py) contará además con varios métodos que usted deberá implementar:
     1.  verticalMirror: Devuelve el espejo vertical de la imagen
     2.  horizontalMirror: Devuelve el espejo horizontal de la imagen
     3.  negative: Devuelve un negativo de la imagen
@@ -311,7 +311,7 @@
     Hello from the pygame community. https://www.pygame.org/contribute.html
     >>> draw(rock)
     ```
-    ![PyGame](imagenes/pygame_rock.png)
+    ![PyGame](img/pygame_rock.png)
 
 -   Ejercicios:
 
@@ -320,19 +320,19 @@
         1.  Implemente los métodos de la clase Picture. Se recomienda que implemente la clase picture por etapas, probando realizar los dibujos que se muestran en la siguiente preguntas.
         2.  Usando únicamente los métodos de los objetos de la clase Picture dibuje las siguientes figuras (invoque a draw):
 
-            *    (a) ![(a)](imagenes/ejercicio_02_a.png)
+            *    (a) ![(a)](img/ejercicio_02_a.png)
 
-            *    (b) ![(b)](imagenes/ejercicio_02_b.png)
+            *    (b) ![(b)](img/ejercicio_02_b.png)
 
-            *    (c) ![(c)](imagenes/ejercicio_02_c.png)
+            *    (c) ![(c)](img/ejercicio_02_c.png)
 
-            *    (d) ![(d)](imagenes/ejercicio_02_d.png)
+            *    (d) ![(d)](img/ejercicio_02_d.png)
 
-            *    (e) ![(e)](imagenes/ejercicio_02_e.png)
+            *    (e) ![(e)](img/ejercicio_02_e.png)
 
-            *    (f) ![(f)](imagenes/ejercicio_02_f.png)
+            *    (f) ![(f)](img/ejercicio_02_f.png)
 
-            *    (g) ![(g)](imagenes/ejercicio_02_g.png)
+            *    (g) ![(g)](img/ejercicio_02_g.png)
 
 #
 
