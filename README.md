@@ -337,16 +337,17 @@
 #
 
 ## SOLUCIÓN
--   En este laboratorio lo primero es activar nuestro entorno virtual, esto se descarga con el administrador de paquetes (pip) de python, realizamos nuestro directorio para que finalmente activemos nuestro venv.
+-   En este laboratorio lo primero es activar nuestro entorno virtual, esto se descarga con el administrador de paquetes (pip) de python, realizamos nuestro directorio para que finalmente activemos nuestro venv.             ![](img/activate.PNG)
 -   En este laboratorio se piden primero completar los métodos siguientes
     *  verticalMirror: Devuelve el espejo vertical de la imagen
-    *  horizontalMirror: Devuelve el espejo horizontal de la imagen
+             ![](img/vertical_mirror.PNG)
+    *  horizontalMirror: Devuelve el espejo horizontal de la imagen  ![](img/horizontalMirror.PNG)
     *  negative: Devuelve un negativo de la imagen
-    *  join: Devuelve una nueva figura poniendo la figura del argumento al lado derecho de la figura actual
+    *  join: Devuelve una nueva figura poniendo la figura del argumento al lado derecho de la figura actual  ![](img/join.PNG)
     *  up: Devuelve una nueva figura poniendo la figura recibida como argumento, encima de la figura actual
     *  under: Devuelve una nueva figura poniendo la figura recibida como argumento, sobre la figura actual
-    *  horizontalRepeat, Devuelve una nueva figura repitiendo la figura actual al costado la cantidad de veces que indique el valor de n
-    *  verticalRepeat Devuelve una nueva figura repitiendo la figura actual debajo, la cantidad de veces que indique el valor de n  
+    *  horizontalRepeat, Devuelve una nueva figura repitiendo la figura actual al costado la cantidad de veces que indique el valor de n  ![](img/horizontalRepeat.PNG)
+    *  verticalRepeat Devuelve una nueva figura repitiendo la figura actual debajo, la cantidad de veces que indique el valor de n  ![](img/verticalRepeat.PNG)
 #
 
 ## CUESTIONARIO RESUELTO
