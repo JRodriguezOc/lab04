@@ -342,7 +342,7 @@
 
 ## SOLUCIÓN
 -   En este laboratorio lo primero es activar nuestro entorno virtual, esto se descarga con el administrador de paquetes (pip) de python, realizamos nuestro directorio para que finalmente activemos nuestro venv.             ![](img/activate.PNG)
--   En este laboratorio se piden primero completar los métodos siguientes
+-   En este laboratorio se piden primero completar los métodos siguientes, recordar que todo se abre en game.py
     *  verticalMirror: Devuelve el espejo vertical de la imagen
              ![](img/vertical_mirror.PNG)
     *  horizontalMirror: Devuelve el espejo horizontal de la imagen  ![](img/horizontalMirror.PNG)
