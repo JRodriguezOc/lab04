@@ -336,10 +336,30 @@
 
 #
 
-## CUESTIONARIO
+## SOLUCIÓN
+-   En este laboratorio lo primero es activar nuestro entorno virtual, esto se descarga con el administrador de paquetes (pip) de python, realizamos nuestro directorio para que finalmente activemos nuestro venv.
+-   En este laboratorio se piden primero completar los métodos siguientes
+    *  verticalMirror: Devuelve el espejo vertical de la imagen
+    *  horizontalMirror: Devuelve el espejo horizontal de la imagen
+    *  negative: Devuelve un negativo de la imagen
+    *  join: Devuelve una nueva figura poniendo la figura del argumento al lado derecho de la figura actual
+    *  up: Devuelve una nueva figura poniendo la figura recibida como argumento, encima de la figura actual
+    *  under: Devuelve una nueva figura poniendo la figura recibida como argumento, sobre la figura actual
+    *  horizontalRepeat, Devuelve una nueva figura repitiendo la figura actual al costado la cantidad de veces que indique el valor de n
+    *  verticalRepeat Devuelve una nueva figura repitiendo la figura actual debajo, la cantidad de veces que indique el valor de n  
+#
+
+## CUESTIONARIO RESUELTO
 -   ¿Qué son los archivos *.pyc?
+    *  Al ejecutar el programa Python, el código fuente se compila en código de bytes , que es un detalle de implementación de CPython (la implementación original de Python). El código de bytes también se almacena en caché siendo almacenados en archivos .pyc para que la próxima vez que vuelva a ejecutar el código, la ejecución del mismo archivo sea más rápida.
 -   ¿Para qué sirve el directorio __pycache__?
+    *  En resúmen, es el directorio donde almacena todos estos .pyc
 -   ¿Cuáles son los usos y lo que representa el subguión en Python?
+    *  Según en investigué, el subguión evita la confusión en la lectura de los nombres de variables, clases, etc. Tenemos casos como:
+        *  Subguión antes del nombre: Cuando nos referimos a algo privado, como funciones, clases, métodos.
+        *  Subguión después del nombre: Solo es para evitar confusiones con funciones integradas de Python
+        *  Doble subguión antes del nombre
+        *  Doble subguión antes y después del nombre: Lo usamos en los famosos métodos mágicos, en este laboratorio se vió por ejemplo __init__, al final sirve para evitar conflictos entre los métodos mágicos y algún método definido por nosotros, al momento de escribir el código.
 
 #
 
