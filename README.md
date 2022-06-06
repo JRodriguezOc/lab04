@@ -44,6 +44,10 @@
     </ul>
 </td>
 </<tr>
+<tr><td colspan="6">ESTUDIANTE:
+<ul>
+<li>Joaquín Rodríguez Ocharán - jrodriguezoc@unsa.edu.pe</li>
+</ul>
 <tr><td colspan="6">DOCENTES:
 <ul>
 <li>Richart Smith Escobedo Quispe - rescobedoq@unsa.edu.pe</li>
